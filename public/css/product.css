@@ -1,0 +1,52 @@
+.search-form {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr auto;
+    align-items: end;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.search-form__field {
+    display: grid;
+    gap: 7px;
+}
+
+.search-form__field label {
+    font-weight: 700;
+}
+
+.product-thumbnail {
+    width: 90px;
+    height: 66px;
+    object-fit: contain;
+}
+
+.detail-card {
+    max-width: 780px;
+}
+
+.like-button {
+    display: block;
+    margin: 20px auto;
+    border: 0;
+    color: #ffffff;
+    background: transparent;
+    font-size: 4rem;
+    line-height: 1;
+    -webkit-text-stroke: 2px #dc3545;
+    cursor: pointer;
+}
+
+.like-button--active {
+    color: #dc3545;
+}
+
+.delete-form {
+    display: inline-flex;
+}
+
+@media (max-width: 760px) {
+    .search-form {
+        grid-template-columns: 1fr;
+    }
+}

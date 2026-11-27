@@ -1,0 +1,17 @@
+.auth-card {
+    max-width: 600px;
+}
+
+.auth-card--wide {
+    max-width: 720px;
+}
+
+.auth-card__link {
+    text-align: center;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
